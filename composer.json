@@ -1,0 +1,27 @@
+{
+  "name": "cyvelnet/billplz",
+  "description": "A Malaysian simple billing and payment solution with Billplz",
+  "authors": [
+    {
+      "name": "Cyvelnet",
+      "email": "cyvelnet@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.0.*",
+    "guzzlehttp/guzzle": "~5.2",
+    "phpunit/phpunit": "~4.6"
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "psr-0": {
+      "Cyvelnet\\Billplz\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require-dev": {
+    "orchestra/testbench": "3.0.*"
+  }
+}
