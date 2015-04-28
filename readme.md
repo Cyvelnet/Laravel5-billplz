@@ -24,14 +24,26 @@ To create a new bill
                 
                 
 
-
 To delete an existing bill
 
     Billplz::delete($billId);
     
 
-
-
 To retrieve an existing bill info.
 
     Billplz::get($billId);
+
+To ensure an request is success without error, you verify with
+
+    $response = Billplz::get($billId);
+    if($response->isSuccess())
+    {
+        $apiResponse = $response->getResponse();
+    }else
+    {
+        $errorResponse = $response->getFailedReason();
+    }
+    
+
+
+
