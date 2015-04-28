@@ -17,19 +17,21 @@ You can also publish the config-file to change implementations to suits you.
 
 To create a new bill
 
-    `Billplz::issue(function (BillBody $bill) {
+    `Billplz::issue(function ($bill) {
             $bill->amount(1)
                  ->to('customer name', 'customer@customer.com', 'customer mobile number');
-                });`
+            });`
                 
                 
 
 
 To delete an existing bill
-    `Billplz::delete($billId);`
+
+    `Billplz::delete($billId);'
     
 
 
 
 To retrieve an existing bill info.
+
     `Billplz::get($billId);`
