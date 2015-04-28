@@ -19,12 +19,17 @@ To create a new bill
 
     `Billplz::issue(function (BillBody $bill) {
             $bill->amount(1)
-                ->to('customer name', 'customer@customer.com', 'customer mobile number');`
+                 ->to('customer name', 'customer@customer.com', 'customer mobile number');
+                });`
                 
                 
+
+
 To delete an existing bill
     `Billplz::delete($billId);`
     
+
+
 
 To retrieve an existing bill info.
     `Billplz::get($billId);`
