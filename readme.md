@@ -11,7 +11,20 @@ After updating composer, add the ServiceProvider to the providers array in confi
     'Cyvelnet\Billplz\BillplzServiceProvider',
 
 You can also publish the config-file to change implementations to suits you.
-
    
     php artisan vendor:publish
     
+
+To create a new bill
+
+    `Billplz::issue(function (BillBody $bill) {
+            $bill->amount(1)
+                ->to('customer name', 'customer@customer.com', 'customer mobile number');`
+                
+                
+To delete an existing bill
+    `Billplz::delete($billId);`
+    
+
+To retrieve an existing bill info.
+    `Billplz::get($billId);`
