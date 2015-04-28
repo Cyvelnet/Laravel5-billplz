@@ -4,7 +4,7 @@ A Malaysia simple billing and payment solution from Billplz for laravel 5
 
 Require this package with composer using the following command:
 
-    composer require cyvelnet/laravel5-billplz
+    composer require cyvelnet/billplz
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
 
