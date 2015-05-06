@@ -89,7 +89,7 @@ class BillBody
     /**
      * set callback url
      * @param $callbackUrl
-     * @return mixed
+     * @return $this
      */
     public function callback($callbackUrl)
     {
@@ -101,7 +101,7 @@ class BillBody
     /**
      * set bill due date
      * @param $date
-     * @return mixed
+     * @return $this
      */
     public function dueAt($date)
     {
@@ -113,7 +113,7 @@ class BillBody
     /**
      * set recipient mobile no
      * @param $mobileNo
-     * @return mixed
+     * @return $this
      */
     public function mobile($mobileNo)
     {
@@ -125,7 +125,7 @@ class BillBody
     /**
      * set bill meta
      * @param array $meta
-     * @return array
+     * @return $this
      */
     public function meta(array $meta = array())
     {
@@ -137,7 +137,7 @@ class BillBody
     /**
      * set delivery
      * @param $boolean
-     * @return mixed
+     * @return $this
      */
     public function deliver($boolean)
     {
@@ -148,7 +148,7 @@ class BillBody
 
     /** set redirect url on success
      * @param $redirectUrl
-     * @return mixed
+     * @return $this
      */
     public function redirect($redirectUrl)
     {
@@ -160,7 +160,7 @@ class BillBody
     /**
      * set bill id
      * @param $bill
-     * @return string
+     * @return $this
      */
     public function bill($bill)
     {
@@ -169,6 +169,14 @@ class BillBody
         return $this;
     }
 
+    /**
+     * set bill reciepient info
+     * @param $recipientName
+     * @param $recipientEmail,
+     * @param $recipientMobile
+     * @return $this
+     * 
+     */
     public function to($recipientName, $recipientEmail, $recipientMobile = null)
     {
         $this->name = $recipientName;
