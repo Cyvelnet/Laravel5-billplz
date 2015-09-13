@@ -10,7 +10,7 @@
   "require": {
     "php": ">=5.4.0",
     "illuminate/support": "5.0.x|5.1.x",
-    "guzzlehttp/guzzle": "~5.2",
+    "guzzlehttp/guzzle": "~6.0",
     "phpunit/phpunit": "~4.6"
   },
   "autoload": {
