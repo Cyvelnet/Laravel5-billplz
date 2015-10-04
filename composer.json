@@ -1,5 +1,6 @@
 {
   "name": "cyvelnet/billplz",
+  "license": "MIT",
   "description": "A Malaysian simple billing and payment solution with Billplz",
   "authors": [
     {
