@@ -52,7 +52,7 @@ abstract class BaseTransporter
     {
         try {
 
-            $response = $this->client->$type($url, ['auth' => [$this->apiKey, null], 'body' => $body]);
+            $response = $this->client->$type($url, ['auth' => [$this->apiKey, null], 'form_params' => $body]);
             $this->success = true;
 
         } catch (ClientException $e) {
