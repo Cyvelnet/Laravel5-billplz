@@ -11,8 +11,7 @@
   "require": {
     "php": ">=5.4.0",
     "illuminate/support": "5.0.x|5.1.x",
-    "guzzlehttp/guzzle": "~5.2",
-    "phpunit/phpunit": "~4.6"
+    "guzzlehttp/guzzle": "~5.2"
   },
   "autoload": {
     "classmap": [
@@ -23,6 +22,7 @@
   },
   "minimum-stability": "stable",
   "require-dev": {
-    "orchestra/testbench": "3.0.*"
+    "orchestra/testbench": "3.0.*",
+    "phpunit/phpunit": "~4.6"
   }
 }
