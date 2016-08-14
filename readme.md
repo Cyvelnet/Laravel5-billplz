@@ -10,7 +10,7 @@ After updating composer, add the ServiceProvider to the providers array in confi
 
     'Cyvelnet\Billplz\BillplzServiceProvider',
 
-You can also publish the config-file to change implementations to suits you.
+You can also publish the config file to change implementations to suits your configuration.
    
     php artisan vendor:publish
     
