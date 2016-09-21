@@ -1,7 +1,7 @@
 # laravel5-billplz
 A Malaysia simple billing and payment solution from Billplz for laravel 5
 
-## [2016/09/21] Please consider this repo as deprecated, in favors of https://github.com/Cyvelnet/laravel-billplz (support v3 api & sandbox), visit https://github.com/Cyvelnet/laravel-billplz/wiki/Laravel5-billplz-compatibility for potential change to adapts to v3 api
+> #### [2016/09/21] Please consider this repo as deprecated, in favors of https://github.com/Cyvelnet/laravel-billplz (support v3 api & sandbox), visit https://github.com/Cyvelnet/laravel-billplz/wiki/Laravel5-billplz-compatibility for potential change to adapts to v3 api
 
 
 Require this package with composer using the following command:
